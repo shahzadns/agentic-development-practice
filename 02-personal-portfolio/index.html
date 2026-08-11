@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="header-content">
+          <div>
+            <p class="eyebrow">Welcome to my portfolio</p>
+            <h1>Shahzad Nawaz</h1>
+            <p class="bio">
+              I build elegant, user-centered web experiences with clean design,
+              thoughtful interactions, and scalable front-end architecture.
+            </p>
+          </div>
+          <div class="hero-card">
+            <p class="hero-label">Current focus</p>
+            <h2>Creative product sites and interactive web apps</h2>
+            <p>
+              I enjoy turning ideas into polished digital experiences that feel
+              seamless across devices.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section projects" id="projects">
+          <div class="section-header">
+            <p class="eyebrow">Recent Work</p>
+            <h2>Projects</h2>
+            <p>
+              A selection of recent projects, from design-led landing pages to
+              polished web applications.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-meta">
+                <span>Web App</span>
+                <span>React / Tailwind</span>
+              </div>
+              <h3>TaskFlow</h3>
+              <p>
+                A clean productivity dashboard for organizing tasks, tracking
+                goals, and staying focused with subtle motion.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">
+                <span>Landing Page</span>
+                <span>HTML / CSS / JavaScript</span>
+              </div>
+              <h3>LaunchPad</h3>
+              <p>
+                A conversion-driven marketing site with bold imagery, fast
+                interactions, and a modern brand aesthetic.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">
+                <span>Portfolio</span>
+                <span>Design System</span>
+              </div>
+              <h3>Studio Showcase</h3>
+              <p>
+                A visual identity system for a creative studio, paired with an
+                accessible component library and storytelling-driven layouts.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="section-header">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Contact</h2>
+            <p>
+              Interested in working together or want to say hello? Send a message
+              and I will get back to you soon.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <div>
+              <h3>Let's build something great.</h3>
+              <p>
+                I’m available for freelance work, collaborations, and new
+                projects.
+              </p>
+            </div>
+            <form id="contact-form">
+              <label>
+                Name
+                <input type="text" name="name" required placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" required placeholder="you@example.com" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" required placeholder="Tell me about your project"></textarea>
+              </label>
+              <button type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Shahzad Nawaz. Crafted with HTML, CSS, and JavaScript.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
